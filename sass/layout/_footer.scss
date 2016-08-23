@@ -1,0 +1,10 @@
+#io_footer{
+	background: $background-footer;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	& > .io-copyright{
+		font-size: 1.9rem;
+		color: #333333;
+		font-family: $font-abadi-light;
+	}
+}

@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'ONEDAY';
+  src: url("../fonts/ONEDAY.eot");
+  src: url("../fonts/ONEDAY.woff2") format("woff2"), url("../fonts/ONEDAY.woff") format("woff"), url("../fonts/ONEDAY.ttf") format("truetype"), url("../fonts/ONEDAY.svg#ONEDAY") format("svg"), url("../fonts/ONEDAY.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AbadiMTLight';
+  src: url("../fonts/AbadiMT-CondensedLight.woff") format("woff"), url("../fonts/AbadiMT-CondensedLight.ttf") format("truetype"), url("../fonts/AbadiMT-CondensedLight.svg#AbadiMT-CondensedLight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AbadiMTBold';
+  src: url("../fonts/AbadiMT-CondensedExtraBold.woff") format("woff"), url("../fonts/AbadiMT-CondensedExtraBold.ttf") format("truetype"), url("../fonts/AbadiMT-CondensedExtraBold.svg#AbadiMT-CondensedExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  font-size: 62.5%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 4rem;
+  font-family: "Open Sans", sans-serif;
+  color: #333333; }
+
+img {
+  width: 100%; }
+
+/***** Footer *****/
+.container-small {
+  max-width: 1180px;
+  margin: 0 auto; }
+
+.nav-right-custom > li > a {
+  font-family: "ONEDAY", Arial, Serif;
+  color: #d2d3d7;
+  padding: 20px 40px;
+  font-size: 1.7rem;
+  transition: color .2s ease-in-out; }
+  .nav-right-custom > li > a:hover {
+    background: none;
+    color: #d64040; }
+  .nav-right-custom > li > a:focus {
+    background: none; }
+
+#io_header {
+  background: url(../img/banner-1.jpg) no-repeat;
+  background-position: top center;
+  position: relative;
+  height: 100vh;
+  z-index: 9999;
+  background-size: cover; }
+  #io_header > .navbar {
+    background: rgba(70, 73, 78, 0.89);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-radius: 0px; }
+  #io_header .navbar-toggle {
+    background: url(../img/logo-bt.png) no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+    transition: background .3s ease-in-out; }
+  #io_header .io-arrow-dow {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -15px;
+    animation: bounce 2s infinite; }
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px); } }
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px); } }
+
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -o-transform: translateY(0); }
+  40% {
+    -o-transform: translateY(-30px); }
+  60% {
+    -o-transform: translateY(-15px); } }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
+
+.io-logo {
+  font-size: 2.2rem;
+  font-family: "ONEDAY", Arial, Serif;
+  color: #d64040;
+  height: 65px; }
+  .io-logo > span {
+    color: #fff; }
+  .io-logo:hover {
+    color: #d64040; }
+
+.io-title-header > h2 {
+  padding-top: 40%;
+  padding-bottom: 35%;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "ONEDAY", Arial, Serif;
+  background: transparent;
+  color: #fff; }
+  .io-title-header > h2 > span {
+    color: #ef4e30; }
+
+.nav-icon {
+  background: url(../img/icon/close.png) no-repeat !important; }
+
+#io_about {
+  background: url(../img/banner-3.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  padding: 20% 0; }
+  #io_about .io-about-detail > h2 {
+    font-size: 66px;
+    text-transform: uppercase;
+    font-family: "ONEDAY", Arial, Serif;
+    color: #fff;
+    margin-bottom: 75px; }
+  #io_about .io-about-detail > p {
+    font-size: 30px;
+    font-family: "AbadiMTLight", Arial, Serif;
+    color: #d6d6d6;
+    padding: 0 13%; }
+
+#io_introduction {
+  background: url(../img/banner-2.jpg) no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 100vh;
+  padding-top: 20%;
+  padding-bottom: 30%; }
+  #io_introduction .io-introduce p {
+    font-size: 26px;
+    font-family: "AbadiMTLight", Arial, Serif; }
+    #io_introduction .io-introduce p > span {
+      font-family: "AbadiMTBold", Arial, Serif; }
+
+#io_our_team {
+  background: url(../img/our-team.jpg) no-repeat;
+  background-position: center center;
+  position: relative;
+  background-size: 100% 100%;
+  padding-bottom: 200px;
+  overflow: hidden; }
+  #io_our_team .io-team-title > h2 {
+    line-height: 400px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: "ONEDAY", Arial, Serif; }
+  #io_our_team .io-human-info {
+    margin-bottom: 5rem;
+    font-size: 23px; }
+    #io_our_team .io-human-info > .name {
+      font-family: "AbadiMTBold", Arial, Serif;
+      margin-bottom: 5px; }
+    #io_our_team .io-human-info > .rank {
+      font-family: "AbadiMTLight", Arial, Serif; }
+
+#io_video {
+  width: 100%;
+  overflow: hidden; }
+  #io_video video {
+    width: 100%; }
+
+#io_contact {
+  background: #24262b;
+  padding-top: 200px;
+  padding-bottom: 100px; }
+  #io_contact .io-title-contact > h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: "ONEDAY", Arial, Serif;
+    color: #ffffff;
+    padding-bottom: 50px; }
+    #io_contact .io-title-contact > h2 > span {
+      color: #ef4e30; }
+
+#io_footer {
+  background: #e2e2e2;
+  padding-top: 60px;
+  padding-bottom: 20px; }
+  #io_footer > .io-copyright {
+    font-size: 1.9rem;
+    color: #333333;
+    font-family: "AbadiMTLight", Arial, Serif; }
+
+@media (max-width: 1024px) {
+  #io_header {
+    height: auto; }
+  #io_about {
+    height: auto; }
+  .nav-right-custom > li > a {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  #io_about .io-about-detail > h2 {
+    font-size: 45px; }
+  #io_about .io-about-detail > p {
+    padding-left: 0;
+    padding-right: 0; }
+  #io_introduction {
+    background-size: cover;
+    height: auto; }
+  #io_contact {
+    padding-top: 100px; }
+  #io_our_team {
+    padding: 0 10px;
+    padding-bottom: 100px;
+    background-size: cover; }
+    #io_our_team .io-team-title > h2 {
+      line-height: 200px;
+      font-size: 50px; } }
+
+@media (max-width: 801px) {
+  .io-title-header > h2 {
+    font-size: 40px; } }
+
+@media (max-width: 769px) {
+  #io_contact .io-title-contact > h2 {
+    font-size: 35px; }
+  #io_footer > .io-copyright {
+    font-size: 18px; }
+  .io-logo {
+    margin-top: 10px;
+    height: 50px; } }
+
+@media (max-width: 600px) {
+  .io-title-header > h2 {
+    font-size: 25px; }
+  #io_about .io-about-detail > h2 {
+    font-size: 25px; }
+  #io_about .io-about-detail > p {
+    font-size: 16px; } }
+
+@media (max-width: 481px) {
+  .io-title-header > h2 {
+    font-size: 19px; }
+  #io_our_team .io-team-title > h2 {
+    font-size: 40px; } }

@@ -1,0 +1,99 @@
+#io_about{
+	background: url(../img/banner-3.jpg) no-repeat;
+	background-position: center center;	
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+	padding: 20% 0;
+	.io-about-detail{
+		& > h2{
+			font-size: 66px;
+			text-transform: uppercase;
+			font-family: $font-oneday;
+			color: #fff;
+			margin-bottom: 75px;
+		}
+
+		& > p{
+			font-size: 30px;
+			font-family: $font-abadi-light;
+			color: #d6d6d6;
+			padding: 0 13%;
+		}
+	}
+}
+
+#io_introduction{
+	background: url(../img/banner-2.jpg) no-repeat;
+	background-position: center center;	
+	background-size: 100% 100%;
+	position: relative;
+	height: 100vh;
+	padding-top: 20%;
+	padding-bottom: 30%;
+	& .io-introduce{
+		& p{
+			font-size: 26px;
+			font-family: $font-abadi-light;
+			& > span{
+				font-family: $font-abadi-bold;
+			}
+		}
+	}
+}
+
+#io_our_team{
+	background: url(../img/our-team.jpg) no-repeat;
+	background-position: center center;	
+	position: relative;
+	background-size: 100% 100%;
+	padding-bottom: 200px;
+	overflow: hidden;
+	& .io-team-title{
+		& > h2{
+			line-height: 400px;
+			font-size: 5rem;
+			text-transform: uppercase;
+			font-family: $font-oneday;
+		}
+	}
+
+	& .io-human-info{
+		margin-bottom: 5rem;
+		font-size: 23px;
+		& > .name{
+			font-family: $font-abadi-bold;
+			margin-bottom: 5px;
+		}
+		& > .rank{
+			font-family: $font-abadi-light;
+		}
+	}
+}
+
+#io_video{
+	width: 100%;
+	overflow: hidden;
+
+	& video{
+		width: 100%;
+	}
+}
+
+#io_contact{
+	background: #24262b;
+	padding-top: 200px;
+	padding-bottom: 100px;
+	.io-title-contact{
+		& > h2{
+			font-size: 5rem;
+			text-transform: uppercase;
+			font-family: $font-oneday;
+			color: #ffffff;
+			padding-bottom: 50px;
+			& > span{
+			color: $color-span;
+		}
+		}
+	}
+}

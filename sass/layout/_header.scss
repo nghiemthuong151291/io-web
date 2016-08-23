@@ -1,0 +1,106 @@
+.nav-right-custom {
+	& > li{
+		& > a{
+			font-family: $font-oneday;
+			color: $nav-color;
+			padding: 20px 40px;
+			font-size: 1.7rem;
+			transition: color .2s ease-in-out;
+			&:hover{
+				background: none;
+				color: #d64040;
+			}
+			&:focus{
+				background: none;
+			}
+
+		}
+	}
+}
+
+#io_header{
+	background: url(../img/banner-1.jpg) no-repeat;
+	background-position: top center;	
+	position: relative;
+	height: 100vh;
+	z-index: 9999;
+	background-size: cover;
+	& > .navbar{
+		background: $nav-background;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		border-radius: 0px;
+	}
+
+	.navbar-toggle{
+		background: url(../img/logo-bt.png) no-repeat;
+		background-size: contain;
+		margin-top: 15px;
+		transition: background .3s ease-in-out;
+	}
+
+	.io-arrow-dow{
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		margin-left: -15px;
+		animation: bounce 2s infinite;
+	}
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+.io-logo{
+	font-size: $logo-size;
+	font-family: $font-oneday;
+	color: #d64040;
+	height: 65px;
+	& > span{
+		color: #fff;
+	}
+	&:hover{
+		color: #d64040;;
+	}
+}
+
+.io-title-header{
+	& > h2{
+		padding-top: 40%;
+		padding-bottom: 35%;
+		font-size: 60px;
+		text-transform: uppercase;
+		font-family: $font-oneday;
+		background: transparent;
+		color: #fff;
+		& > span{
+			color: $color-span;
+		}
+	}
+}
+
+.nav-icon{
+	background: url(../img/icon/close.png) no-repeat !important;
+}

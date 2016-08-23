@@ -1,0 +1,119 @@
+@media (max-width: 1024px){
+	#io_header{
+		height: auto;
+	}
+
+	#io_about{
+		height: auto;
+	}
+
+
+	.nav-right-custom{
+		& > li{
+			& > a{
+				font-size: 16px;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+	}
+
+	#io_about{
+		& .io-about-detail{
+			& > h2{
+				font-size: 45px;
+			}
+
+			& > p{
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+
+	#io_introduction{
+		background-size: cover;
+		height: auto;
+	}
+
+	#io_contact{
+		padding-top: 100px;
+	}
+
+	#io_our_team{
+		padding: 0 10px;
+		padding-bottom: 100px;
+		background-size: cover;
+		.io-team-title{
+			& > h2{
+				line-height: 200px;
+				font-size: 50px;
+			}
+		}
+	}
+}
+
+@media (max-width: 801px){
+	.io-title-header{
+		& > h2{
+			font-size: 40px;
+		}
+	}
+}
+
+@media (max-width: 769px){
+	#io_contact{
+		.io-title-contact{
+			&  > h2{
+				font-size: 35px;
+			}
+		}
+	}
+
+	#io_footer{
+		& > .io-copyright{
+			font-size: 18px;
+		}
+	}
+
+	.io-logo{
+		margin-top: 10px;
+		height: 50px;
+	}
+}
+
+@media (max-width: 600px){
+	.io-title-header{
+		& > h2{
+			font-size: 25px;
+		}
+	}
+
+	#io_about{
+		& .io-about-detail{
+			& > h2{
+				font-size: 25px;
+			}
+
+			& > p{
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+@media (max-width: 481px){
+	.io-title-header{
+		& > h2{
+			font-size: 19px;
+		}
+	}
+
+	#io_our_team{
+		& .io-team-title{
+			& > h2{
+				font-size: 40px;
+			}
+		}
+	}
+}
